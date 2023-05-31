@@ -34,11 +34,11 @@
             if (!isEmailValid && !isPasswordValid) {
                 errorText = "Wrong email and wrong password.";
             } else if (!isEmailValid) {
-                errorText = "Wrong email..";
+                errorText = "Wrong email.";
             } else if (!isPasswordValid) {
                 errorText = "Wrong password.";
             } else {
-                response.sendRedirect("welcome.jsp");
+                errorText = "Welcome";
             }
         }
     %>
