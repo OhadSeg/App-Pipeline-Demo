@@ -45,7 +45,7 @@
 
     <script>
         var errorLabel = document.getElementById('errorLabel');
-        errorLabel.textContent = '<%= errorText %>';
+        errorLabel.textContent = '<%= errorText %>'; 
     </script>
 </body>
 </html>
