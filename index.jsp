@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Login Page</title>
+    <title>Login Page</title> 
 </head>
 <body>
     <h1>Login Page</h1> 
